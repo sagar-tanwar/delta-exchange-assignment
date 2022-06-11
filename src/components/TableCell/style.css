@@ -1,0 +1,11 @@
+.tableCell--left {
+  text-align: left;
+}
+
+.tableCell--right {
+  text-align: right;
+}
+
+.tableCell--center {
+  text-align: center;
+}

@@ -1,0 +1,35 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table.stickyHeader th {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+
+table.stickyFirstColumn th:first-child {
+  position: sticky;
+  left: 0;
+  z-index: 2;
+}
+
+table.stickyFirstColumn tr :first-child {
+  position: sticky;
+  left: 0;
+}
+
+th, td {
+  padding: 16px;
+  border-bottom: 1px solid rgb(33, 33, 33);
+  color: #fff;
+  background: #101013;
+}
+
+th {
+  white-space: nowrap;
+  color: #BABABA;
+  background: #191A1F;
+}
